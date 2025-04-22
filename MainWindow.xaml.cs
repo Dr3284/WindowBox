@@ -18,6 +18,11 @@ public partial class MainWindow : Window
 {
     public MainWindow()
     {
-        InitializeComponent();
+        // InitializeComponent();
     }
 }
+
+private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("ボタンが押されたよ！");
+    }

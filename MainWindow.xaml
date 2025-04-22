@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowBox"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow_Test"
+        Height="450"
+        Width="800">
     <Grid>
+        <StackPanel>
+            <TextBlock Text="こんにちは！"
+                       Margin="10"/>
+            <Button Content="押してみて"
+                    Click="Button_Click"/>
+        </StackPanel>
 
     </Grid>
+
 </Window>
